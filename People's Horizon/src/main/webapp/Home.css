@@ -1,0 +1,189 @@
+.main-content {
+  margin-top: 10vh;
+  margin-left: 17vw;
+/*   display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  grid-gap: 20px;
+}
+
+
+ .profile-card {
+	 min-height: 27vh;
+	 box-shadow: 0px 4px 30px -15px rgba(13, 28, 39, 0.6);
+	 background: #fff;
+	 border-radius: 12px;
+	 max-width: 38vw;
+	 position: relative;
+}
+
+ .profile-card__cnt {
+	 text-align: center;
+	 padding: 20px;
+	 transition: all 0.3s;
+}
+ .profile-card__name {
+	/*  font-weight: 700; */
+	 font-size: 30px;
+	 color: rgb(124 58 237);
+}
+
+ .profile-card-ctr {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+
+ .zp-card {
+	 color: black;
+	 font-size: 20px;
+   font-family: Roboto Flex, sans-serif;
+	 margin-top: 10px;
+/* 	 box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12); */
+	 background-color: #fff;
+	 border-radius: 1px;
+	 position: relative;
+	 overflow: hidden;
+}
+ .zp-lst-wrapper {
+	 clear: both;
+	 border-bottom: 3px solid #eff2f7;
+	 line-height: 27px;
+	 margin: 15px;
+	 position: relative;
+}
+ .zp-lst-wrapper .zp-left-label {
+	 width: calc(50% - 20px);
+	 float: left;
+	 padding-top: 0 !important;
+	 padding-right: 20px;
+	 position: relative;
+	 padding-bottom: 4px;
+	 text-indent: 15px;
+	 text-align: left;
+}
+ .zp-lst-wrapper .zp-right-label {
+	 text-align: left;
+	 padding-top: 0 !important;
+	 padding-right: 20px;
+	 position: relative;
+	 margin-bottom: 5px;
+	 padding-bottom: 5px;
+}
+ .zp-lst-wrapper::after {
+	 content: "";
+	 clear: both;
+	 display: table;
+}
+ .zp-lst-wrapper:last-child {
+	 border-bottom: none;
+}
+ 
+ .profile-card__cnt {
+	 text-align: center;
+	 padding: 20px;
+	 transition: all 0.3s;
+}
+
+.balance-wrapper {
+	min-height: 27vh;
+  max-width: 38vw;
+  box-shadow: 0px 4px 30px -15px rgba(13, 28, 39, 0.6);
+  background: #fff;
+  border-radius: 12px;
+/*   position: relative; */
+}
+
+.money-icon {
+  width: 10vw;
+  margin-left: 5vw;
+}
+
+.balance-left-label {
+  float: left;
+  width: 17vw;
+}
+
+.balance-amount {
+  float: right;
+  text-align: left;
+  font-size: 30px;
+  width: 17vw;
+  margin-top: 7.5vh;
+}
+
+
+.transaction-wrapper {
+	height: 50vh;
+  box-shadow: 0px 4px 30px -15px rgba(13, 28, 39, 0.6);
+  background: #fff;
+  border-radius: 12px;
+  top: 45vh;
+  left: 19vw;
+  width: 79vw; 
+}
+
+.transaction-title {
+  
+}
+
+.item:nth-child(3) {
+  grid-column: span 2; 
+}
+
+.transaction-wrapper .profile-card__name {
+/*   text-align: left; */
+  
+  margin-left: 1vw;
+  margin-top: 2vh;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.transaction-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-all {
+  color: rgb(139 92 246);
+  margin-right: 2vw;
+  gap: 0.5rem;
+  align-items: center;
+  display: inline-flex;
+}
+
+.view-all  span {
+  font-family: Roboto Flex, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.view-all svg {
+  width: 1.5vw;
+}
+
+.view-all:hover {
+  color: rgb(76, 18, 207);
+}
+
+.transaction-data {
+  display: grid;
+}
+
+.t-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.t-cell {
+/*   border: 1px solid #ccc; */
+  padding: 1vw;
+  padding-left: 2vw;
+}
+
+.t-header {
+  font-weight: bold;
+}

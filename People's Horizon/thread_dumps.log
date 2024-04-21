@@ -1,0 +1,84 @@
+Fri Apr 19 15:28:08 IST 2024   Branch added successfully: Branch: 
+  branchId: null
+  branchName: Main Street Branch
+  phoneNumberId: 10000
+  addressId: 100000
+  branchCode: PZON018345
+
+Fri Apr 19 15:28:08 IST 2024   Branch added successfully: Branch: 
+  branchId: null
+  branchName: Palladam Branch
+  phoneNumberId: 10001
+  addressId: 100001
+  branchCode: PZON014345
+
+Fri Apr 19 15:28:08 IST 2024   Branch added successfully: Branch: 
+  branchId: null
+  branchName: Coimbatore Branch
+  phoneNumberId: 10002
+  addressId: 100002
+  branchCode: PZON014345
+
+Fri Apr 19 15:28:08 IST 2024   Branch added successfully: Branch: 
+  branchId: null
+  branchName: Gandhipuram Branch
+  phoneNumberId: 10003
+  addressId: 100003
+  branchCode: PZON012375
+
+Fri Apr 19 15:28:08 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:08 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:08 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:08 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:08 IST 2024   Account added Successfully
+Fri Apr 19 15:28:08 IST 2024   Account added Successfully
+Fri Apr 19 15:28:08 IST 2024   Account added Successfully
+Fri Apr 19 15:28:08 IST 2024   Account added Successfully
+Fri Apr 19 15:28:08 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Employee added successfully: Employee: 
+  id: null
+  employeeId: 100004
+  branchId: 100000
+
+Fri Apr 19 15:28:09 IST 2024   Admin added successfully: User: 
+  userId: null
+  firstName: Roman
+  lastName: Reigns
+  email: roman.reigns@justice.com
+  phoneNumberId: 10009
+  addressId: 100009
+  userType: ADMIN
+  status: ACTIVE
+
+Fri Apr 19 15:28:09 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Customer added Successfully
+Fri Apr 19 15:28:09 IST 2024   Account added Successfully
+Fri Apr 19 15:28:09 IST 2024   Authentication Success for 100000
+Fri Apr 19 15:28:09 IST 2024   Balance retrieved successfully for account number: 1000003
+Fri Apr 19 15:28:09 IST 2024   getBalance() method is called using accountNumber1000003
+Fri Apr 19 15:28:09 IST 2024   Amount transferred successfully to 100002
+Fri Apr 19 15:28:09 IST 2024   Balance retrieved successfully for account number: 1000003
+Fri Apr 19 15:28:09 IST 2024   getBalance() method is called using accountNumber1000003
+Fri Apr 19 15:28:09 IST 2024   Amount transferred successfully to 100006
+Fri Apr 19 15:28:09 IST 2024   Balance retrieved successfully for account number: 1000003
+Fri Apr 19 15:28:09 IST 2024   getBalance() method is called using accountNumber1000003
+Fri Apr 19 15:28:09 IST 2024   Withdraw amount successfull63.0
+Fri Apr 19 15:28:09 IST 2024   Balance retrieved successfully for account number: 1000003
+Fri Apr 19 15:28:09 IST 2024   getBalance() method is called using accountNumber1000003
+Fri Apr 19 15:28:09 IST 2024   Amount deposited successfully to account number: 1000003
+Fri Apr 19 15:28:09 IST 2024   Balance retrieved successfully for account number: 1000003
+Fri Apr 19 15:28:09 IST 2024   getBalance() method is called using accountNumber1000003
+Fri Apr 19 15:28:09 IST 2024   Withdraw amount successfull138.0
